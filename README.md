@@ -77,6 +77,25 @@ I believe that the earlier kids start thinking algorithmically, the better — s
 
 ---
 
+## ⚔️ Coding Practice
+
+I solve algorithmic challenges daily to sharpen my problem-solving skills and write better Swift code.
+
+| Platform | Progress |
+|----------|---------|
+| **CodeWars** | 7 kyu · 75+ kata solved |
+| **LeetCode** | 0+ problems solved · 30 days streak 🔥 |
+
+<p align="left">
+  <a href="https://www.codewars.com/users/Shokkobarokko">
+    <img src="https://www.codewars.com/users/Shokkobarokko/badges/large" />
+  </a>
+</p>
+
+*"Clean code, one kata at a time."*
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="left">
