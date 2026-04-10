@@ -37,14 +37,6 @@
 
 > Currently working on two iOS apps. Details coming soon.
 
-<!-- ======================================================
-     PROJECT 1 — замени содержимое этого блока, когда будешь готов
-     ====================================================== -->
-### 🔧 Project 1 · `Bara`
-
-![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
-
 ### 🔧 Project 1 · Bara
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
@@ -91,21 +83,18 @@
 - 🔧 Виджет и уведомления
 
 [![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/Bara)  
-*Ссылка появится, когда репозиторий станет публичным*
+git@github.com:Shokkobarokko/Bara.git
 
 > 🚧 In development — description will be added soon.
 
 ---
 
-<!-- ======================================================
-     PROJECT 2 — замени содержимое этого блока, когда будешь готов
-     ====================================================== -->
 ### 🔧 Project 2 · `[название]`
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
 
-<!-- Добавь сюда: краткое описание, стек, ссылку на репозиторий -->
+
 > 🚧 In development — description will be added soon.
 
 ---
