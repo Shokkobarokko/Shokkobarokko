@@ -40,12 +40,12 @@
 <!-- ======================================================
      PROJECT 1 — замени содержимое этого блока, когда будешь готов
      ====================================================== -->
-### 🔧 Project 1 · `[название]`
+### 🔧 Project 1 · `Bara`
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
 
-<!-- Добавь сюда: краткое описание, стек, ссылку на репозиторий -->
+[<!-- Добавь сюда: краткое описание, стек, ссылку на репозиторий -->](https://github.com/Shokkobarokko/Bara)
 > 🚧 In development — description will be added soon.
 
 ---
