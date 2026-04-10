@@ -82,8 +82,7 @@
 - 🔧 Профиль и настройки
 - 🔧 Виджет и уведомления
 
-[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/Bara)  
-git@github.com:Shokkobarokko/Bara.git
+[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/Bara)
 
 > 🚧 In development — description will be added soon.
 
