@@ -37,14 +37,14 @@
 
 > Currently working on two iOS apps. Details coming soon.
 
-### 🔧 Project 1 · Bara
+### 🔧 Project 1 · Copybara
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift)
 ![UIKit](https://img.shields.io/badge/UIKit-code%20only-2C2C2E?style=flat-square&logo=apple)
 
-> **Bara** — фокус-компаньон с виртуальной капибарой. Помогает бороться с телефонной зависимостью через игровую механику и социальную поддержку.
+> **Copybara** — фокус-компаньон с виртуальной капибарой. Помогает бороться с телефонной зависимостью через игровую механику и социальную поддержку.
 
 #### 🎯 Концепция
 
@@ -82,7 +82,7 @@
 - 🔧 Профиль и настройки
 - 🔧 Виджет и уведомления
 
-[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/Bara)
+[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/Capybara)
 
 
 ---
