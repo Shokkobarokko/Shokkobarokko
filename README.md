@@ -37,14 +37,14 @@
 
 > Currently working on two iOS apps. Details coming soon.
 
-### 🔧 Project 1 · Copybara
+### 🔧 Project 1 · Capybara
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift)
 ![UIKit](https://img.shields.io/badge/UIKit-code%20only-2C2C2E?style=flat-square&logo=apple)
 
-> **Copybara** — фокус-компаньон с виртуальной капибарой. Помогает бороться с телефонной зависимостью через игровую механику и социальную поддержку.
+> **Capybara** — фокус-компаньон с виртуальной капибарой. Помогает бороться с телефонной зависимостью через игровую механику и социальную поддержку.
 
 #### 🎯 Концепция
 
