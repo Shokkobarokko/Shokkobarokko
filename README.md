@@ -37,7 +37,68 @@
 
 > Currently working on two iOS apps. Details coming soon.
 
-### 🔧 Project 1 · Capybara
+### 🔧 Project 1 · SIGNAL
+
+![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-5.10-F05138?style=flat-square&logo=swift)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square&logo=swift)
+
+> **SIGNAL** — футуристичная новостная лента о технологиях в эстетике «improbable future». Чёрно-белый минимализм, тонкие линии, крупная типографика, редкие холодные акценты.
+
+#### 🎯 Концепция
+
+Приложение загружает технологические новости из **NewsAPI.org** (бесплатный план). Пользователь видит ленту с категориями (Technology, AI, Space, Crypto, Science), может искать статьи, сохранять в избранное (офлайн через SwiftData) и читать полностью в WebView. Виджет на главный экран показывает последнюю новость.
+
+#### 🧠 Ключевые механики
+
+- Лента новостей с пагинацией и pull‑to‑refresh
+- Категории + полнотекстовый поиск (debounce 0.5с)
+- Офлайн‑режим: кэш последних 50 статей в SwiftData
+- Избранное (сохранение навсегда)
+- Детальный экран с WebKit / Safari
+- Виджет WidgetKit (малый и средний размер)
+- Настройки: страна новостей, очистка кэша, форсированная тёмная тема
+
+#### 🛠 Tech stack
+
+- **Swift 5.10+** · **SwiftUI** (100%, без UIKit)
+- **MVVM** + **`@Observable`** (iOS 17+)
+- **async/await** + **URLSession** (без сторонних библиотек)
+- **SwiftData** (избранное + кэш)
+- **WidgetKit** + **App Groups** для виджета
+- iOS 17+ · Xcode 15+
+
+#### 🎨 Дизайн-система «Improbable Future»
+
+- Цвета: почти чёрный фон (`#0A0A0A`), карточки `#111111`, единственный акцент — тёмно‑синий
+- Типографика: тонкие начертания (`.thin`, `.ultraLight`), моноширинные метки
+- Нумерация новостей как в терминале: `001`, `002`, `003`
+- Теги категорий: `[ TECHNOLOGY ]`, `[ AI ]` — квадратные скобки, капс
+- Временные метки: `2026.06.11 / 14:32` (точки и слэш)
+
+#### 📱 Текущий статус
+
+Проект в активной разработке. Реализованы:
+- ✅ Настройка проекта и Git
+- ✅ Дизайн-система (цвета, шрифты, модификаторы)
+- ✅ Модели данных и SwiftData контейнер
+- ✅ NewsService (сетевой слой с async/await)
+- ✅ Кэширование (офлайн‑режим)
+- ✅ FeedViewModel и главная лента с категориями
+- ✅ Карточки статей и детальный экран
+- ✅ Поиск с debounce
+- ✅ Избранное (Bookmarks)
+- ✅ Настройки (страна, кэш, тема)
+
+В работе:
+- 🔧 WidgetKit виджет
+- 🔧 Анимации и обработка ошибок
+- 🔧 Финальное тестирование и README
+
+[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/SIGNAL)
+
+### 🔧 Project 2 · Capybara
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
@@ -87,7 +148,7 @@
 
 ---
 
-### 🔧 Project 2 · ButtonBook
+### 🔧 Project 3 · ButtonBook
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
