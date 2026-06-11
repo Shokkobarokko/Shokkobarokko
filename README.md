@@ -35,8 +35,6 @@
 
 ## 📱 Projects
 
-> Currently working on two iOS apps. Details coming soon.
-
 ### 🔧 Project 1 · SIGNAL
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
