@@ -152,7 +152,7 @@ Some of the decisions explored during development:
 * 🔧 Performance improvements
 * 🔧 Final documentation
 
-[![GitHub](https://img.shields.io/badge/Repository-181717?style=flat-square\&logo=github\&logoColor=white)](PASTE_TRACKLY_REPOSITORY_URL_HERE)
+[[![GitHub](https://img.shields.io/badge/Repository-181717?style=flat-square\&logo=github\&logoColor=white)](PASTE_TRACKLY_REPOSITORY_URL_HERE)](https://github.com/Shokkobarokko/Trackly)
 
 ---
 
