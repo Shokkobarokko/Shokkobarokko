@@ -1,6 +1,8 @@
 # Hi, I'm Avetis 👋
 
-**iOS Developer** · crafting mobile experiences with Swift
+**iOS Developer** · building mobile apps with Swift
+
+I’m focused on becoming a strong iOS engineer through hands-on projects, system design, algorithms, and deep understanding of Swift and UIKit.
 
 ---
 
@@ -8,207 +10,367 @@
 
 **Languages**
 
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square\&logo=swift\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square\&logo=csharp\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
 
-**Frameworks & UI**
+**iOS & UI**
 
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square&logo=swift&logoColor=white)
-![UIKit](https://img.shields.io/badge/UIKit-2C2C2E?style=flat-square&logo=apple&logoColor=white)
+![UIKit](https://img.shields.io/badge/UIKit-2C2C2E?style=flat-square\&logo=apple\&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square\&logo=swift\&logoColor=white)
+
+**Architecture & Development**
+
+![MVVM](https://img.shields.io/badge/MVVM-181717?style=flat-square)
+![async/await](https://img.shields.io/badge/async%2Fawait-F05138?style=flat-square\&logo=swift\&logoColor=white)
+![Codable](https://img.shields.io/badge/Codable-181717?style=flat-square)
+![URLSession](https://img.shields.io/badge/URLSession-181717?style=flat-square)
 
 **Tools**
 
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![CocoaPods](https://img.shields.io/badge/CocoaPods-EE3322?style=flat-square&logo=cocoapods&logoColor=white)
-![SPM](https://img.shields.io/badge/SPM-F05138?style=flat-square&logo=swift&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square\&logo=xcode\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![CocoaPods](https://img.shields.io/badge/CocoaPods-EE3322?style=flat-square\&logo=cocoapods\&logoColor=white)
+![SPM](https://img.shields.io/badge/SPM-F05138?style=flat-square\&logo=swift\&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square\&logo=figma\&logoColor=white)
 
-**Databases**
+**Data & Persistence**
 
-![CoreData](https://img.shields.io/badge/CoreData-2C2C2E?style=flat-square&logo=apple&logoColor=white)
-![Realm](https://img.shields.io/badge/Realm-39477F?style=flat-square&logo=realm&logoColor=white)
+![SwiftData](https://img.shields.io/badge/SwiftData-2C2C2E?style=flat-square\&logo=apple\&logoColor=white)
+![CoreData](https://img.shields.io/badge/CoreData-2C2C2E?style=flat-square\&logo=apple\&logoColor=white)
+![Realm](https://img.shields.io/badge/Realm-39477F?style=flat-square\&logo=realm\&logoColor=white)
 
 ---
 
-## 📱 Projects
+# 📱 Projects
 
-### 🔧 Project 1 · SIGNAL
+## 🔧 Project 1 · Trackly
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
-![Swift](https://img.shields.io/badge/Swift-5.10-F05138?style=flat-square&logo=swift)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square&logo=swift)
+![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square\&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square\&logo=swift)
+![UIKit](https://img.shields.io/badge/UIKit-2C2C2E?style=flat-square\&logo=apple)
+
+> **Trackly** — habit and activity tracking app built as a long-term iOS engineering project.
+
+The project is focused not only on building features, but also on understanding how a real iOS application is structured, tested, persisted, and evolved.
+
+### 🎯 Current Features
+
+* Habit creation
+* Habit editing
+* Habit deletion
+* Input validation
+* Habit list with `UITableView`
+* Persistent storage
+* Stable habit identifiers
+* Creation dates
+* MVVM structure
+* ViewModel → UI callbacks
+* JSON encoding/decoding with `Codable`
+
+### 🧠 Engineering Focus
+
+Trackly is being developed step by step with focus on:
+
+* Swift fundamentals
+* Value vs reference semantics
+* Protocols and extensions
+* Optionals and error handling
+* Closures and capture lists
+* UIKit lifecycle
+* `UITableView` and delegates
+* Auto Layout
+* MVVM
+* Persistence
+* Networking
+* `async/await`
+* Repository and Service layers
+* Dependency Injection
+* Unit and UI testing
+* Data structures and algorithmic complexity
+* Debugging and performance
+
+### 🏗 Architecture
+
+Current architecture:
+
+```text
+ViewController
+      ↓
+   ViewModel
+      ↓
+   Storage
+      ↓
+ UserDefaults
+```
+
+Planned evolution:
+
+```text
+ViewController
+      ↓
+   ViewModel
+      ↓
+   Repository
+      ↓
+ ┌───────────────┐
+ │               │
+NetworkService  LocalStorage
+ │               │
+URLSession     Persistence
+```
+
+### 📚 Engineering Decisions
+
+The project is intentionally evolving from a simple implementation toward a more production-like architecture.
+
+Some of the decisions explored during development:
+
+* Why use MVVM?
+* Why keep persistence outside the ViewController?
+* Why use stable `UUID` identifiers?
+* When is `UserDefaults` appropriate?
+* When should persistence move to a database?
+* When does a Repository layer become useful?
+* When should Dependency Injection be introduced?
+* How should networking and local storage be tested?
+
+### 🚧 Roadmap
+
+* 🔧 Habit completion tracking
+* 🔧 Completion history
+* 🔧 Better persistence layer
+* 🔧 Repository architecture
+* 🔧 Networking with `URLSession`
+* 🔧 `async/await`
+* 🔧 Loading / error / success states
+* 🔧 Unit tests
+* 🔧 UI tests
+* 🔧 Dependency Injection
+* 🔧 Performance improvements
+* 🔧 Final documentation
+
+[![GitHub](https://img.shields.io/badge/Repository-181717?style=flat-square\&logo=github\&logoColor=white)](PASTE_TRACKLY_REPOSITORY_URL_HERE)
+
+---
+
+## 🔧 Project 2 · SIGNAL
+
+![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square\&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-5.10-F05138?style=flat-square\&logo=swift)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square\&logo=swift)
 
 > **SIGNAL** — футуристичная новостная лента о технологиях в эстетике «improbable future». Чёрно-белый минимализм, тонкие линии, крупная типографика, редкие холодные акценты.
 
-#### 🎯 Концепция
+### 🎯 Концепция
 
-Приложение загружает технологические новости из **NewsAPI.org** (бесплатный план). Пользователь видит ленту с категориями (Technology, AI, Space, Crypto, Science), может искать статьи, сохранять в избранное (офлайн через SwiftData) и читать полностью в WebView. Виджет на главный экран показывает последнюю новость.
+Приложение загружает технологические новости из **NewsAPI.org**. Пользователь видит ленту с категориями Technology, AI, Space, Crypto и Science, может искать статьи, сохранять их в избранное и читать полностью.
 
-#### 🧠 Ключевые механики
+### 🧠 Ключевые механики
 
-- Лента новостей с пагинацией и pull‑to‑refresh
-- Категории + полнотекстовый поиск (debounce 0.5с)
-- Офлайн‑режим: кэш последних 50 статей в SwiftData
-- Избранное (сохранение навсегда)
-- Детальный экран с WebKit / Safari
-- Виджет WidgetKit (малый и средний размер)
-- Настройки: страна новостей, очистка кэша, форсированная тёмная тема
+* Лента новостей с пагинацией
+* Pull-to-refresh
+* Категории
+* Полнотекстовый поиск
+* Debounce поиска
+* Офлайн-кэш последних статей
+* Избранное
+* Детальный экран
+* WebKit / Safari
+* WidgetKit
+* Настройки приложения
 
-#### 🛠 Tech stack
+### 🛠 Tech Stack
 
-- **Swift 5.10+** · **SwiftUI** (100%, без UIKit)
-- **MVVM** + **`@Observable`** (iOS 17+)
-- **async/await** + **URLSession** (без сторонних библиотек)
-- **SwiftData** (избранное + кэш)
-- **WidgetKit** + **App Groups** для виджета
-- iOS 17+ · Xcode 15+
+* **Swift 5.10+**
+* **SwiftUI**
+* **MVVM**
+* **`@Observable`**
+* **async/await**
+* **URLSession**
+* **SwiftData**
+* **WidgetKit**
+* **App Groups**
+* iOS 17+
+* Xcode 15+
 
-#### 🎨 Дизайн-система «Improbable Future»
+### 🎨 Design System — "Improbable Future"
 
-- Цвета: почти чёрный фон (`#0A0A0A`), карточки `#111111`, единственный акцент — тёмно‑синий
-- Типографика: тонкие начертания (`.thin`, `.ultraLight`), моноширинные метки
-- Нумерация новостей как в терминале: `001`, `002`, `003`
-- Теги категорий: `[ TECHNOLOGY ]`, `[ AI ]` — квадратные скобки, капс
-- Временные метки: `2026.06.11 / 14:32` (точки и слэш)
+* Почти чёрный фон
+* Минималистичные карточки
+* Тёмно-синий акцент
+* Тонкая типографика
+* Моноширинные метки
+* Нумерация новостей: `001`, `002`, `003`
+* Теги категорий: `[ TECHNOLOGY ]`, `[ AI ]`
+* Временные метки: `2026.06.11 / 14:32`
 
-#### 📱 Текущий статус
+### 📱 Status
 
-Проект в активной разработке. Реализованы:
-- ✅ Настройка проекта и Git
-- ✅ Дизайн-система (цвета, шрифты, модификаторы)
-- ✅ Модели данных и SwiftData контейнер
-- ✅ NewsService (сетевой слой с async/await)
-- ✅ Кэширование (офлайн‑режим)
-- ✅ FeedViewModel и главная лента с категориями
-- ✅ Карточки статей и детальный экран
-- ✅ Поиск с debounce
-- ✅ Избранное (Bookmarks)
-- ✅ Настройки (страна, кэш, тема)
+Implemented:
 
-В работе:
-- 🔧 WidgetKit виджет
-- 🔧 Анимации и обработка ошибок
-- 🔧 Финальное тестирование и README
+* ✅ Project setup
+* ✅ Design system
+* ✅ SwiftData container
+* ✅ Network service
+* ✅ Offline caching
+* ✅ Feed
+* ✅ Categories
+* ✅ Article cards
+* ✅ Detail screen
+* ✅ Search with debounce
+* ✅ Bookmarks
+* ✅ Settings
 
-[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/SIGNAL)
+In progress:
 
-### 🔧 Project 2 · Capybara
+* 🔧 WidgetKit
+* 🔧 Animations
+* 🔧 Error handling
+* 🔧 Final testing
+* 🔧 README improvements
 
-![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
-![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift)
-![UIKit](https://img.shields.io/badge/UIKit-code%20only-2C2C2E?style=flat-square&logo=apple)
-
-> **Capybara** — фокус-компаньон с виртуальной капибарой. Помогает бороться с телефонной зависимостью через игровую механику и социальную поддержку.
-
-#### 🎯 Концепция
-
-Вы выбираете приложения, которые хотите ограничить (YouTube, Instagram, игры), и устанавливаете дневной лимит. Если лимит превышен – здоровье капибары падает. Чтобы «простить» себе превышение и восстановить питомца, нужно отправить запрос другу. Друг нажимает на ссылку – и капибара снова здорова.
-
-#### 🧠 Ключевые механики
-
-- Мониторинг времени через **ScreenTime API** (`FamilyControls`, `DeviceActivity`)
-- Принудительная блокировка приложений (`ManagedSettings`)
-- Виртуальный питомец с динамическим здоровьем
-- «Прощение» через друзей (глубокие ссылки)
-- История использования и графики
-- Локальные уведомления и виджет (в плане)
-
-#### 🛠 Tech stack
-
-- **Swift** + **UIKit** (всё кодом, без Storyboard)
-- **MVVM** + делегаты / замыкания
-- Хранение: `UserDefaults` + `Codable`
-- Навигация: `UINavigationController` + `UITabBarController`
-- Только Apple SDK (без сторонних библиотек)
-- iOS 16.4+
-
-#### 📱 Текущий статус
-
-Проект находится в активной разработке. Реализованы:
-- ✅ Авторизация ScreenTime и выбор приложений
-- ✅ Применение блокировки
-- ✅ Мониторинг использования и падение здоровья
-- ✅ Экран капибары с полоской здоровья
-- ✅ Генерация ссылок на прощение через Deep Links
-
-В работе:
-- 🔧 Статистика и графики
-- 🔧 Профиль и настройки
-- 🔧 Виджет и уведомления
-
-[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/Capybara)
-
+[![GitHub](https://img.shields.io/badge/Repository-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Shokkobarokko/SIGNAL)
 
 ---
 
-### 🔧 Project 3 · ButtonBook
+## 🔧 Project 3 · Capybara
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square&logo=apple)
-![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift)
-![UIKit](https://img.shields.io/badge/UIKit-2C2C2E?style=flat-square&logo=apple)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square&logo=swift)
+![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square\&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square\&logo=swift)
+![UIKit](https://img.shields.io/badge/UIKit-code%20only-2C2C2E?style=flat-square\&logo=apple)
 
-> **ButtonBook** — публичный дневник изучения кнопок на iOS. 40 кнопок от простых до сложных анимированных: 20 на UIKit и 20 на SwiftUI. Каждая кнопка = отдельный файл + подробное объяснение.
+> **Capybara** — фокус-компаньон с виртуальной капибарой, который помогает бороться с телефонной зависимостью через игровую механику и социальную поддержку.
 
-#### 🎯 Концепция
+### 🎯 Концепция
 
-Это учебный репозиторий, где я документирую процесс создания разных видов кнопок. Каждая кнопка живёт в своей папке с кодом и `README.md`. Главный README содержит таблицу всех 40 кнопок с уровнями сложности и ссылками.
+Пользователь выбирает приложения, которые хочет ограничить, и устанавливает дневной лимит.
 
-#### 📋 Список кнопок (частично)
+Если лимит превышен — здоровье виртуальной капибары падает. Чтобы восстановить питомца, пользователь может отправить запрос другу.
 
-**UIKit (20 шт.):**
+### 🧠 Ключевые механики
+
+* Screen Time API
+* `FamilyControls`
+* `DeviceActivity`
+* `ManagedSettings`
+* Мониторинг использования
+* Ограничение приложений
+* Виртуальный питомец
+* Глубокие ссылки
+* История использования
+* Графики
+* Локальные уведомления
+* Widget
+
+### 🛠 Tech Stack
+
+* **Swift**
+* **UIKit**
+* MVVM
+* Delegates / Closures
+* UserDefaults
+* Codable
+* UINavigationController
+* UITabBarController
+* Apple SDK
+* iOS 16.4+
+
+### 📱 Status
+
+Implemented:
+
+* ✅ Screen Time authorization
+* ✅ App selection
+* ✅ App blocking
+* ✅ Usage monitoring
+* ✅ Health system
+* ✅ Capybara screen
+* ✅ Deep links
+
+In progress:
+
+* 🔧 Statistics
+* 🔧 Charts
+* 🔧 Profile
+* 🔧 Settings
+* 🔧 Widget
+* 🔧 Notifications
+
+[![GitHub](https://img.shields.io/badge/Repository-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Shokkobarokko/Capybara)
+
+---
+
+## 🔧 Project 4 · ButtonBook
+
+![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-iOS-lightgrey?style=flat-square\&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square\&logo=swift)
+![UIKit](https://img.shields.io/badge/UIKit-2C2C2E?style=flat-square\&logo=apple)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D6EFD?style=flat-square\&logo=swift)
+
+> **ButtonBook** — публичный дневник изучения кнопок на iOS.
+
+40 кнопок от простых до сложных анимированных: 20 на UIKit и 20 на SwiftUI.
+
+Каждая кнопка живёт в отдельном файле и сопровождается объяснением реализации.
+
+### 📋 UIKit
+
 `Plain` · `Filled` · `Outlined` · `Tinted` · `Gradient` · `Shadow` · `Icon+Text` · `Destructive` · `Scale Press` · `Bounce Press` · `Haptic` · `Highlight Ripple` · `Loading State` · `Countdown` · `Toggle` · `Pill Progress` · `Morphing` · `Glitch` · `Liquid Fill` · `Particles Burst`
 
-**SwiftUI (20 шт.):**
+### 📋 SwiftUI
+
 `Plain` · `Filled` · `Outlined` · `ScalePress` · `SpringBounce` · `Shimmer` · `GlowPulse` · `Icon Animated` · `RotatingBorder` · `LoadingDots` · `Toggle Checkmark` · `MatchedGeometry` · `Ripple Tap` · `Countdown` · `PillProgress` · `Morphing Shape` · `Liquid Wave` · `3D Flip` · `Particle Burst` · `Metal Shader`
 
-#### 🛠 Tech stack
+### 🛠 Tech Stack
 
-- **Swift** 5.9+ · **UIKit** + **SwiftUI**
-- Только Apple SDK (без сторонних библиотек)
-- iOS 16+ (iOS 17+ для Metal шейдера)
-- Auto Layout кодом · ButtonStyle · Canvas · Metal
+* Swift
+* UIKit
+* SwiftUI
+* Auto Layout
+* ButtonStyle
+* Canvas
+* Metal
+* Apple SDK
 
-#### 📱 Текущий статус
+### 📱 Status
 
-Проект запущен, структура создана. Постепенно добавляю кнопки:
-- ✅ Подготовка проекта (структура папок, SceneDelegate)
-- 🔧 UIKit: 0/20 (начинаю с Plain)
-- 🔧 SwiftUI: 0/20
+* ✅ Project structure
+* 🔧 UIKit: 0/20
+* 🔧 SwiftUI: 0/20
 
-Каждая новая кнопка → новый коммит + README с объяснением.
+Each new button → separate commit + README explanation.
 
-[![GitHub](https://img.shields.io/badge/Репозиторий-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shokkobarokko/ButtonBook)
-
----
-
-## 🎓 Teaching
-
-Beyond mobile dev, I teach programming to kids and teenagers.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Scratch](https://img.shields.io/badge/Scratch-4D97FF?style=flat-square&logo=scratch&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![Roblox](https://img.shields.io/badge/Roblox%20Studio-E2231A?style=flat-square&logo=roblox&logoColor=white)
-
-I believe that the earlier kids start thinking algorithmically, the better — so I make it fun.
+[![GitHub](https://img.shields.io/badge/Repository-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Shokkobarokko/ButtonBook)
 
 ---
 
-## ⚔️ Coding Practice
+# 🎓 Teaching
 
-I solve algorithmic challenges daily to sharpen my problem-solving skills and write better Swift code.
+Beyond mobile development, I teach programming to kids and teenagers.
 
-| Platform | Progress |
-|----------|---------|
-| **CodeWars** | 7 kyu · 75+ kata solved |
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square\&logo=html5\&logoColor=white)
+![Scratch](https://img.shields.io/badge/Scratch-4D97FF?style=flat-square\&logo=scratch\&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square\&logo=unity\&logoColor=white)
+![Roblox](https://img.shields.io/badge/Roblox%20Studio-E2231A?style=flat-square\&logo=roblox\&logoColor=white)
+
+I believe that the earlier kids start thinking algorithmically, the better — so I make programming fun and practical.
+
+---
+
+# ⚔️ Coding Practice
+
+I solve algorithmic challenges to improve my problem-solving skills and write better Swift code.
+
+| Platform     | Progress                               |
+| ------------ | -------------------------------------- |
+| **CodeWars** | 7 kyu · 75+ kata solved                |
 | **LeetCode** | 0+ problems solved · 30 days streak 🔥 |
 
 <p align="left">
@@ -221,7 +383,7 @@ I solve algorithmic challenges daily to sharpen my problem-solving skills and wr
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Stats
 
 <p align="left">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=Shokkobarokko&show_icons=true&theme=dark&hide_border=true&count_private=true" />
@@ -234,6 +396,6 @@ I solve algorithmic challenges daily to sharpen my problem-solving skills and wr
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
-[![Telegram](https://img.shields.io/badge/@Shokkobarokko-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Shokkobarokko)
+[![Telegram](https://img.shields.io/badge/@Shokkobarokko-2CA5E0?style=flat-square\&logo=telegram\&logoColor=white)](https://t.me/Shokkobarokko)
